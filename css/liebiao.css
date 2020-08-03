@@ -1,0 +1,313 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .list {
+        width: 100%;
+        background: #f7f7f7;
+    }
+    
+    .list-wrap {
+        width: 1568px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* margin-bottom: 15px; */
+    }
+    
+    .list-wrap .BOX {
+        margin-bottom: 27px;
+        padding: 10px;
+    }
+    
+    .list-wrap a {
+        text-decoration: none;
+    }
+    /* ------------------------------------- */
+    
+    .list-box1 {
+        width: 354px;
+        height: 450px;
+        background: #fff;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .list-box1 section {
+        width: 340px;
+        height: 270px;
+        background: pink;
+        margin: auto;
+    }
+    
+    .list-box1 section img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .list-box1 .P1 {
+        font-size: 22px;
+        color: #333d46;
+        text-align: center;
+        /* 文本溢出 */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .list-box1 .P2 {
+        width: 244px;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 18px;
+        height: #989898;
+    }
+    
+    .list-box1 .P3 {
+        color: #da2a2a;
+        width: 100px;
+        font-size: 14px;
+        /* text-align: center; */
+        margin: 10px auto;
+    }
+    /* 鼠标滑过 */
+    
+    .list-box1:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        transform: translateY(-10px);
+    }
+    /* ------------------------------------------- */
+    
+    .list-box2 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box2 {
+        width: 354px;
+        height: 450px;
+        background: #fff;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .list-box2 section {
+        width: 340px;
+        height: 270px;
+        background: pink;
+        margin: auto;
+    }
+    
+    .list-box2 section img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .list-box2 .P1 {
+        font-size: 22px;
+        color: #333d46;
+        text-align: center;
+        /* 文本溢出 */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .list-box2 .P2 {
+        width: 244px;
+        /* height: 30px; */
+        margin: 15px auto;
+        text-align: center;
+        font-size: 18px;
+        height: #989898;
+    }
+    
+    .list-box2 .P3 {
+        color: #da2a2a;
+        width: 100px;
+        font-size: 14px;
+        /* text-align: center; */
+        margin: 10px auto;
+    }
+    /* 鼠标滑过 */
+    
+    .list-box2:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        transform: translateY(-10px);
+    }
+    /* ------------------------------------------------------ */
+    
+    .list-box3 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box3 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box3 {
+        width: 354px;
+        height: 450px;
+        background: #fff;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .list-box3 section {
+        width: 340px;
+        height: 270px;
+        background: pink;
+        margin: auto;
+    }
+    
+    .list-box3 section img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .list-box3 .P1 {
+        font-size: 22px;
+        color: #333d46;
+        text-align: center;
+        /* 文本溢出 */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .list-box3 .P2 {
+        width: 244px;
+        /* height: 30px; */
+        margin: 15px auto;
+        text-align: center;
+        font-size: 18px;
+        height: #989898;
+    }
+    
+    .list-box3 .P3 {
+        color: #da2a2a;
+        width: 100px;
+        font-size: 14px;
+        /* text-align: center; */
+        margin: 10px auto;
+    }
+    /* 鼠标滑过 */
+    
+    .list-box3:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        transform: translateY(-10px);
+    }
+    /* ---------------------------------------------------------- */
+    
+    .list-box4 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box4 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box4 {
+        width: 354px;
+        height: 450px;
+        background: red;
+    }
+    
+    .list-box4 {
+        width: 354px;
+        height: 450px;
+        background: #fff;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .list-box4 section {
+        width: 340px;
+        height: 270px;
+        background: pink;
+        margin: auto;
+    }
+    
+    .list-box4 section img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .list-box4 .P1 {
+        font-size: 22px;
+        color: #333d46;
+        text-align: center;
+        /* 文本溢出 */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .list-box4 .P2 {
+        width: 244px;
+        /* height: 30px; */
+        margin: 15px auto;
+        text-align: center;
+        font-size: 18px;
+        height: #989898;
+    }
+    
+    .list-box4 .P3 {
+        color: #da2a2a;
+        width: 100px;
+        font-size: 14px;
+        /* text-align: center; */
+        margin: 10px auto;
+    }
+    /* 鼠标滑过 */
+    
+    .list-box4:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        transform: translateY(-10px);
+    }
+    /* --------------------------------------------------- */
+    
+    .LIST-UL {
+        width: 100%;
+    }
+    
+    .list-ul {
+        margin-top: 5px;
+        width: 1568px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .list-ul ul {
+        position: absolute;
+        right: 0;
+    }
+    
+    .list-ul a {
+        text-decoration: none;
+        /* width: 45px;
+        height: 45px;
+        border: 1px solid #dddddd; */
+    }
+    
+    .list-ul li {
+        list-style: none;
+        width: 45px;
+        height: 45px;
+        color: #777777;
+        border: 1px solid #dddddd;
+        text-align: center;
+        line-height: 45px;
+        float: left;
+    }

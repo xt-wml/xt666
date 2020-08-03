@@ -1,0 +1,344 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .shopp {
+        width: 100%
+    }
+    
+    .shopp-wrap {
+        width: 1725px;
+        height: 87px;
+        /* background: pink; */
+        border-bottom: 2px solid #f7f7f7;
+        margin: 0 auto;
+    }
+    
+    .shopp-wrap h2 {
+        width: 91px;
+        height: 87px;
+        font-size: 30px;
+        color: #333333;
+        float: left;
+        line-height: 87px;
+        font-weight: normal;
+    }
+    
+    .shopp-wrap h3 {
+        /* width: 140px; */
+        height: 87px;
+        font-size: 22px;
+        color: #777777;
+        float: left;
+        line-height: 94px;
+        font-weight: normal;
+    }
+    /* ------------------------------- */
+    
+    .shopp-title {
+        margin-top: 15px;
+        width: 100%;
+        height: 61px;
+        overflow: hidden;
+    }
+    
+    .shopp-title-wrap {
+        width: 1725px;
+        height: 61px;
+        margin: auto;
+        background: #efefef;
+        border-top: 2px solid #ececec;
+        border-left: 2px solid #ececec;
+        border-right: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+        position: relative;
+    }
+    
+    .quanxuan {
+        width: 92px;
+        height: 61px;
+        line-height: 61px;
+        font-size: 20px;
+        color: #333333;
+        margin-left: 22px;
+    }
+    
+    .quanxuan input {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .shangp {
+        left: 166px;
+    }
+    
+    .danjia {
+        left: 860px;
+    }
+    
+    .shuliang {
+        right: 695px;
+    }
+    
+    .xiaoji {
+        right: 431px;
+    }
+    
+    .caozuo {
+        right: 265px;
+    }
+    /* 公共样式 */
+    
+    .shangp,
+    .danjia,
+    .shuliang,
+    .xiaoji,
+    .caozuo {
+        width: 50px;
+        height: 61px;
+        line-height: 61px;
+        font-size: 20px;
+        color: #333333;
+        text-align: left;
+        position: absolute;
+        top: 0;
+    }
+    /* ------------------------- */
+    
+    .shangpxiangq {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .shangpxiangq-wrap {
+        width: 1725px;
+        height: 179px;
+        margin: auto;
+        background: #fffeec;
+        position: relative;
+    }
+    
+    .shangpxiangq-wrap input {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 23px;
+        top: 28px;
+    }
+    
+    .shangpxiangq-img {
+        width: 132px;
+        height: 132px;
+        border: 2px solid #eeeeec;
+        border-radius: 5px;
+        position: absolute;
+        left: 166px;
+        top: 22px;
+    }
+    
+    .shangpxiangq-img img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .shangp-title {
+        width: 489px;
+        font-size: 20px;
+        color: #555555;
+        position: absolute;
+        left: 348px;
+        top: 22px;
+    }
+    
+    .price {
+        width: 105px;
+        height: 25px;
+        position: absolute;
+        left: 863px;
+        top: 22px;
+        text-align: left;
+    }
+    /* ------------------------------------------- */
+    
+    .count {
+        width: 201px;
+        height: 43px;
+        border: 1px solid #e1e1e1;
+        position: absolute;
+        right: 550px;
+        top: 22px;
+    }
+    
+    .count-down {
+        width: 39px;
+        height: 43px;
+        border-right: 1px solid #e1e1e1;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        line-height: 43px;
+    }
+    
+    .count aside {
+        width: 121px;
+        height: 43px;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        line-height: 43px;
+        position: relative;
+    }
+    
+    .count aside input {
+        width: 121px;
+        height: 43px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        line-height: 43px;
+    }
+    
+    .count-up {
+        width: 39px;
+        height: 43px;
+        border-left: 1px solid #e1e1e1;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        line-height: 43px;
+    }
+    /* ------------------ */
+    
+    .subtotal {
+        /* 小计 */
+        width: 120px;
+        height: 35px;
+        font-size: 18px;
+        color: #333333;
+        position: absolute;
+        right: 360px;
+        top: 22px;
+    }
+    
+    .handle {
+        width: 120px;
+        height: 80px;
+        /* background: red;                                                                                                                                      */
+        position: absolute;
+        right: 195px;
+        top: 22px;
+    }
+    
+    .handle a {
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        color: #6f6f6c;
+        text-decoration: none;
+    }
+    
+    .handle p {
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: #6f6f6c;
+    }
+    /* ----------------------------- */
+    
+    .last {
+        width: 100%;
+        height: 115px;
+    }
+    
+    .last-wrap {
+        width: 1725px;
+        height: 115px;
+        margin: auto;
+        /* background: pink; */
+        position: relative;
+    }
+    
+    .quanxuanBOX {
+        width: 92px;
+        height: 61px;
+        line-height: 61px;
+        font-size: 20px;
+        color: #333333;
+        margin-left: 22px;
+    }
+    
+    .quanxuanBOX input {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .del {
+        width: 95px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        color: #868686;
+        position: absolute;
+        left: 177px;
+        top: 15px;
+    }
+    
+    .del a {
+        text-decoration: none;
+    }
+    /* --------------------------- */
+    
+    .jine {
+        width: 315px;
+        height: 54px;
+        /* background: red; */
+        position: absolute;
+        right: 500px;
+        top: 35px;
+    }
+    
+    .jine p {
+        font-size: 22px;
+        color: #333333;
+        text-align: center;
+        line-height: 54px;
+    }
+    
+    .price2 {
+        width: 160px;
+        height: 40px;
+        background: red;
+        position: absolute;
+        right: 355px;
+        top: 35px;
+    }
+    
+    .price2 input {
+        width: 160px;
+        height: 40px;
+        font-size: 28px;
+        color: #ed1c24;
+        outline: none;
+        border: 0;
+    }
+    
+    .jiesuan {
+        width: 100px;
+        height: 37px;
+        background: #ed1c24;
+        position: absolute;
+        right: 190px;
+        top: 25px;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    
+    .jiesuan a {
+        text-decoration: none;
+        font-size: 28px;
+        text-align: right;
+        color: #fff;
+    }

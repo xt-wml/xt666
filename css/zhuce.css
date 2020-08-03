@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: #333333;
+}
+
+.header-wrap {
+    width: 1425px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: blue; */
+    position: relative;
+}
+
+.header-ul {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    float: left;
+    /* background: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-ul .aHref {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+.zcdl {
+    width: 88px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 142px;
+    display: flex;
+    justify-content: space-between;
+    background: #333333;
+}
+
+.zcdl a {
+    text-decoration: none;
+    line-height: 50px;
+    color: #b0b0b0;
+}
+
+.shop {
+    width: 141px;
+    height: 50px;
+    background: pink;
+    float: left;
+    position: absolute;
+    right: 0;
+}
+
+.shop a {
+    font-size: 14px;
+    text-align: center;
+    /* line-height: 50px; */
+}
+
+.FORM {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+.FORM .username {
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.password {
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.repassword {
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
