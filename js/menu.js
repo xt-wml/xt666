@@ -26,6 +26,7 @@
         $menuWrap.show();
     });
 
+    //鼠标滑出放置菜单的div隐藏
     $menuWrap.on('mouseout', function() {
         $menuWrap.hide();
     });

@@ -14,9 +14,10 @@
     $Banyuan.on('click', function() {
         //当前索引
         index = $(this).index();
+        //点击小长条时有点延迟
         timer = setTimeout(function() {
             lun();
-        }, 500);
+        }, 200);
     })
 
     //左箭头

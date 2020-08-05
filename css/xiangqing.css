@@ -52,13 +52,41 @@
     width: 651px;
     height: 715px;
     float: left;
-    background: gray;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
+    position: relative;
+}
+
+.bigIMG .sf {
+    width: 200px;
+    height: 200px;
+    background: #ed1c24;
+    z-index: 111;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
 }
 
 .bigIMG img {
     display: block;
+    width: 100%;
+    height: 100%;
+    cursor: move;
+}
+
+.glass {
+    width: 851px;
+    height: 915px;
+    position: absolute;
+    /* opacity: .5; */
+    left: 800px;
+    display: none;
+    pointer-events: none;
+    z-index: 111;
+}
+
+.glass img {
     width: 100%;
     height: 100%;
 }
